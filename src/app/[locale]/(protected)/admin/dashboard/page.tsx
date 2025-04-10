@@ -12,7 +12,7 @@ export default function DashboardPage() {
   const currentLocale = useLocale();
 
   const toggleLocale = () => {
-    const nextLocale = currentLocale === "en" ? "fr" : "en";
+    const nextLocale = currentLocale === "en" ? "es" : "en";
     router.replace(pathname, { locale: nextLocale });
   };
   return (

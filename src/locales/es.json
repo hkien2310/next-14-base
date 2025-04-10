@@ -1,6 +1,6 @@
 {
   "Login": {
-    "test": "Login test En"
+    "test": "Login test"
   },
   "RootLayout": {
     "home_link": "Home",
@@ -36,7 +36,7 @@
   "About": {
     "meta_title": "About",
     "meta_description": "About page description",
-    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
+    "about_paragraph": "Kiên Đẹp trai Siêu cấp Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
     "translation_powered_by": "Translation powered by"
   },
   "Portfolio": {

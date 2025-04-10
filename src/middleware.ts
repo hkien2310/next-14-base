@@ -24,7 +24,7 @@ export default async function middleware(
   // Extract the URL pathname from the request
   const path = request.nextUrl.pathname;
 
-  const isAdminPage = request.nextUrl.pathname.startsWith("/admin");
+  const isAdminPage = request.nextUrl.pathname.includes("/admin");
 
   const regexCheckIsAuthPage = new RegExp(
     `^(/(${AppConfig.locales.join("|")}))?(${authPages.join("|")})/?$`,
